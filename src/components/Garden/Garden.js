@@ -2,15 +2,22 @@
 import React, { useState, useEffect } from 'react';
 import './Garden.css'
 import Tree from '../Tree/Tree';
+import Detail from '../Detail/Detail';
 
 const Garden = () => {
     const [garden, setGarden] = useState([]);
+    const [cart, setCart] = useState([]);
+
     useEffect(() => {
         fetch('./trees.json')
             .then(res => res.json())
             .then(data => setGarden(data));
     }, []);
 
+    const handleAddToCart = (product) => {
+        const newCart = [...cart, product];
+        setCart(newCart);
+    }
     return (
         <div >
             <h1 className='heading'>hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh</h1>
@@ -22,14 +29,13 @@ const Garden = () => {
                         garden.map(product => <Tree
                             key={product.id}
                             product={product}
-
+                            handleAddToCart={handleAddToCart}
                         >
                         </Tree>)
                     }
                 </div>
-                <div>
-                    <h3>No of tree:{garden.length}</h3>
-
+                <div className="cart-container">
+                    <Detail cart={cart}></Detail>
                 </div>
             </div>
 
