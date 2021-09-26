@@ -1,0 +1,9 @@
+.garden-container{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+.heading{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
