@@ -20,9 +20,9 @@ const Garden = () => {
     }
     return (
         <div >
-            <h1 className='heading'>hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh</h1>
-            <hr />
-            <hr />
+            <h1 className='heading'>List of Profitable Tree</h1>
+            <hr className="container" />
+            <hr className="container"/>
             <div className="garden-container">
                 <div className="trees-container">
                     {

@@ -3,86 +3,96 @@
       "id": 1,
       "name": "Baniyan",
       "type":"wood",
-      "description": "zzz",
-      "profit": 20,
+      "description": "Banyan, (Ficus benghalensis), also called Indian banyan or banyan fig, unusually shaped tree of the mulberry family (Moraceae) native to the Indian subcontinent ",
+      "profit": 20000,
       "image": "https://stylesatlife.com/wp-content/uploads/2016/08/1.Banyan-tree.png"
     },
     {
       "id": 2,
       "name": "Alo-Vera",
-      "type":"wood",
+      "type":"unknown",
       "order": "zzz",
-      "profit": 20,
+      "description":"Aloe vera is a succulent plant species of the genus Aloe. Having some 500 species, Aloe is widely distributed, ",
+      "profit": 1000,
       "image": "https://i2.wp.com/www.satvai.com/wp-content/uploads/2018/04/1522807559882.jpg?resize=324%2C324&ssl=1.jpg"
     },
     {
       "id": 3,
-      "name": "aa2a",
-      "type":"wood",
+      "name": "Dumur",
+      "type":"Fruit",
       "order": "zzz",
-      "profit": 20,
-      "image": "image/1.jpg"
+      "description":"Ficus is a genus of about 850 species of woody trees, shrubs, vines, epiphytes and hemiepiphytes in the family Moraceae. Collectively known as fig trees or figs, they are native throughout the tropics with a few species extending into the semi-warm temperate zone",
+      "profit": 60000,
+      "image": "https://www.clickbd.com/global/classified/item_img/1329307_4_original.jpg"
     },
     {
       "id": 4,
-      "name": "aa3a",
-      "type":"wood",
+      "name": "Papaya",
+      "type":"fruit",
+      "description": "Papaya is another well-known fruit which is grown in India due to its Juicy and Delicious taste to eat. It is mostly consumed during summers, but it can also be found in the winters as well. ",
       "order": "zzz",
-      "profit": 20,
-      "image": "image/1.jpg"
+      "profit": 2000,
+      "image": "https://trinjal.com/wp-content/uploads/2019/08/10-2.png"
     },
     {
       "id": 5,
-      "name": "aa4a",
-      "type":"wood",
+      "name": "Apple",
+      "type":"fruit",
+      "description":"",
       "order": "zzz",
-      "profit": 20,
-      "image": "image/1.jpg"
+      "profit": 200000,
+      "image": "https://images.unsplash.com/photo-1597045315639-9df6c171fb69?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8dHJlZSUyMHBsYW50fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
     },
     {
       "id": 6,
-      "name": "aa5a",
-      "type":"wood",
+      "name": "orange",
+      "type":"fruit",
+      "description":"",
       "order": "zzz",
-      "profit": 20,
-      "image": "image/1.jpg"
+      "profit": 206666,
+      "image": "https://media.istockphoto.com/photos/orange-tree-picture-id652206996?b=1&k=20&m=652206996&s=170667a&w=0&h=Pp4NrSvwwOJHNRBuXWPTx5mYy-8Cyg2rrnl8iLZGeLM="
     },
     {
       "id": 7,
-      "name": "aa5a",
-      "type":"wood",
+      "name": "Papaya",
+      "type":"fruits",
+      "description": "Papaya is another well-known fruit which is grown in India due to its Juicy and Delicious taste to eat. It is mostly consumed during summers, but it can also be found in the winters as well. ",
       "order": "zzz",
-      "profit": 20,
-      "image": "image/1.jpg"
+      "profit": 20200,
+      "image": "https://trinjal.com/wp-content/uploads/2019/08/10-2.png"
     },
     {
       "id": 8,
-      "name": "aa5a",
+      "name": "sandalwood",
       "type":"wood",
+      "description":"Sandalwood Tree is a heavy fine-grained Aromatic Tree.",
       "order": "zzz",
-      "profit": 20,
-      "image": "image/1.jpg"
+      "profit": 203000,
+      "image": "https://trinjal.com/wp-content/uploads/2019/08/indian-sandalwood-332884_640-1.jpg"
     },
     {
       "id": 9,
       "name": "aa6a",
       "type":"wood",
+      "description":"",
       "order": "zzz",
       "profit": 20,
       "image": "image/1.jpg"
     },
     {
       "id": 10,
-      "name": "a7aa",
-      "type":"wood",
+      "name": "Guava",
+      "type":"fruit",
+      "description":"Guava Trees are grown during the whole season except during some days of the summer season. ",
       "order": "zzz",
       "profit": 20,
-      "image": "image/1.jpg"
+      "image": "https://trinjal.com/wp-content/uploads/2019/08/Guava-tree.jpg"
     },
     {
       "id": 11,
       "name": "aa8a",
       "type":"wood",
+      "description":"",
       "order": "zzz",
       "profit": 20,
       "image": "image/1.jpg"
@@ -92,6 +102,7 @@
       "name": "aaa5",
       "type":"wood",
       "order": "zzz",
+      "description":"",
       "profit": 20,
       "image": "image/1.jpg"
     },
@@ -99,16 +110,18 @@
       "id": 13,
       "name": "aaa2",
       "type":"wood",
+      "description":"",
       "order": "zzz",
       "profit": 20,
       "image": "image/1.jpg"
     },
     {
       "id": 14,
-      "name": "aaa8",
-      "type":"wood",
+      "name": "Bamboo",
+      "type":"Grass",
+      "description":"",
       "order": "zzz",
-      "profit": 20,
-      "image": "image/1.jpg"
+      "profit": 2000,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvkpA6OMqpkQpyaVBZOSYhRvnjZskFHI_M9Q&usqp=CAU.jpg"
     }
   ]

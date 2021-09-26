@@ -1,3 +1,8 @@
 .tree-image{
     height: 200px;
 }
+.trees{
+    background-color: lightgreen;
+    border: 1px solid gray;
+    box-shadow: 2px goldenrod;
+}

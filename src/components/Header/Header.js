@@ -1,5 +1,7 @@
 import React from 'react';
-import logo from '../../image/image1.jpg'
+import logo from '../../image/image.jpg'
+import logo1 from '../../image/image2.jpg'
+import logo2 from '../../image/image3.jpg'
 import './Header.css'
 const Header = () => {
     return (
@@ -12,27 +14,28 @@ const Header = () => {
                 </div>
                 <div className="carousel-inner">
                     <div className="carousel-item active">
-                        <img src={logo} className="d-block img-fluid" alt="..."></img>
+                        <img src={logo} className="d-block w-100 tree" alt="..."></img>
                         <div className="carousel-caption d-none d-md-block">
-                            <h5>First slide label</h5>
-                            <p>Some representative placeholder content for the first slide.</p>
+                            <h5 className="quote">“If you have a garden and a library, you have everything you need. ”
+Marcus Tullius Cicero</h5>
+                            <p></p>
                         </div>
                     </div>
                     <div className="carousel-item">
                         <div className='img-size'>
-                        <img src={logo} className="d-block w-100 h-50" alt="..."></img>
+                        <img src={logo2} className="d-block w-100 tree" alt="..."></img>
                         </div>
                         
                         <div className="carousel-caption d-none d-md-block">
-                            <h5>Second slide label</h5>
-                            <p>Some representative placeholder content for the second slide.</p>
+                            <h5 className="quote">Gardening is how I relax. It’s another form of creating and playing with colors.</h5>
+                            <p></p>
                         </div>
                     </div>
                     <div className="carousel-item">
-                        <img src={logo} className="d-block w-100 h-100" alt="..."></img>
+                        <img src={logo1} className="d-block w-100 tree" alt="..."></img>
                         <div className="carousel-caption d-none d-md-block">
-                            <h5>Third slide label</h5>
-                            <p>Some representative placeholder content for the third slide.</p>
+                            <h5 className="quote">Gardening is how I relax. It’s another form of creating and playing with colors.</h5>
+                            <p></p>
                         </div>
                     </div>
                 </div>

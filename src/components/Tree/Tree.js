@@ -1,11 +1,13 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faHandHoldingUsd } from '@fortawesome/free-solid-svg-icons';
 import './Tree.css'
 const Tree = (props) => {
-    console.log(props.product);
+    // console.log(props.product);
     const { name, image, description, type, profit } = props.product;
     return (
         <div>
-                <div className="card h-100">
+                <div className="card h-100 trees">
                                 <img src={image} className="card-img-top tree-image" alt="..." />
                                 <div className="card-body">
                                     <h5 className="card-title">Name : {name}</h5>
@@ -14,7 +16,8 @@ const Tree = (props) => {
                                     <p className="card-text">Description : {description}</p>
                                     <button
                                      onClick={() => props.handleAddToCart(props.product)}
-                                    >Calculate</button>
+                                     className='btn btn-primary'
+                                    ><FontAwesomeIcon icon={faHandHoldingUsd} /> Calculate</button>
                                 </div>
                             </div>
            
