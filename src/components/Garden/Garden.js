@@ -21,6 +21,7 @@ const Garden = () => {
     return (
         <div >
             <h1 className='heading'>List of Profitable Tree</h1>
+            <h4 className='heading'>Total profit: 120000</h4>
             <hr className="container" />
             <hr className="container"/>
             <div className="garden-container">
